@@ -105,7 +105,7 @@ defaults:
       path:            hyde
     values:
       accent_color:    rgb(38,139,210)
-      accent_image:    /assets/img/sakura_desktop.jpg
+      accent_image:    
         background:    rgb(32,32,32)
         overlay:       false
 
