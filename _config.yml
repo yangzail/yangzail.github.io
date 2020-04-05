@@ -48,10 +48,10 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             目录
+    url:               /catlog/
   - title:             hydejack
     url:               /hydejack/
-  - title:             my_profile
-    url:               /my_file/
   - title:             Documentation
     url:               /docs/
   - title:             About
@@ -201,12 +201,12 @@ hydejack:
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
     # Set to `true` to always use the dark theme.
-    always:            true
+    always:            false
 
     # Set to `true` to use the dark theme based on visitors' local time.
     dynamic:           true
     sunrise:           6
-    sunset:            18
+    sunset:            19
 
     # Set to `true` to allow visitors to switch between light and dark mode.
     icon:              true
