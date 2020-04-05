@@ -1,7 +1,7 @@
 ---
 layout: list
 title: 目录
-slug: hydejack
+slug: catlog
 menu: true
 order: 1
 description: >
