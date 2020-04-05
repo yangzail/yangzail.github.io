@@ -7,15 +7,11 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    blablabla~
 
-    Open `_data/authors.yml` to edit this text.
-
-    [Download Free][kit]
+    [Download Free][kit] is a github url
     -- or --
-    [Buy PRO][buy]
+    [Buy PRO][buy] is a app url
 
     [kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v8.1.1.zip
     [buy]: https://app.simplegoods.co/i/NATYVLYT
@@ -32,9 +28,9 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
+    # twitter:         <username>
     github:          <username>
-    # email:           <mail@domain.tld>
+    email:           742053486@qq.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
