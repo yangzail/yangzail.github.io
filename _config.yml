@@ -48,7 +48,7 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             目录
+  - title:             Catlog
     url:               /catlog/
   - title:             hydejack
     url:               /hydejack/
