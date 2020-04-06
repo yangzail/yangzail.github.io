@@ -1,6 +1,6 @@
 ---
 layout: list
-title: SDN
+title: SDN Researching
 slug: sdn
 menu: true
 order: 1
