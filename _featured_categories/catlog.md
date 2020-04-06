@@ -5,5 +5,5 @@ slug: catlog
 menu: true
 order: 1
 description: >
-  Catlog ordered by time reversed！(●°u°●)​ 」
+  Blogs ordered by time reversed！(●°u°●)​ 」
 ---
