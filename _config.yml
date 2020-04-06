@@ -42,6 +42,8 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Catlog
+    url:               /catlog/
   - title:             Algorithm
     url:               /algorithm/
   - title:             Machine Learning
