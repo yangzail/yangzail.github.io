@@ -51,7 +51,7 @@ menu:
   - title:             Algorithm
     url:               /algorithm/
   - title:             Machine Learning
-    url:               /machine_learning/
+    url:               /machine-learning/
   - title:             SDN Researching
     url:               /sdn/
 

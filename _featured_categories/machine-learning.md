@@ -1,7 +1,7 @@
 ---
 layout: list
 title: Machine Learning
-slug: machine_learning
+slug: machine-learning
 menu: true
 order: 1
 description: >
