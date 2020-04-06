@@ -27,7 +27,7 @@ author1:
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
-  #social:
+  social:
     # twitter:         <username>
     github:            <username>
     email:             742053486@qq.com
