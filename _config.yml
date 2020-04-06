@@ -48,14 +48,14 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             SDN
-    url:               /sdn/
   - title:             Catlog
     url:               /catlog/
   - title:             Algorithm
     url:               /algorithm/
   - title:             Machine Learning
     url:               /machine_learning/
+  - title:             SDN Researchig
+    url:               /sdn/
 
 
 # Add links to the footer.
