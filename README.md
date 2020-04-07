@@ -3,6 +3,7 @@
 The "Best Jekyll Theme by a Mile".
 
 一款很好看jekyll的主题
+
 fork了免费版，用来装扮我的github pages
 
 **Hydejack** is your presence on the web. It gives you a *blog* that is suitable for both prose and technical documentation, a *portfolio* to showcase your projects, and a beautiful *resume* template that looks amazing on the web and in print.
