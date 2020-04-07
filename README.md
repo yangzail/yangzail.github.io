@@ -3,10 +3,6 @@
 The "Best Jekyll Theme by a Mile".
 
 
-![Screenshot](assets/img/blog/hydejack-8.png)
-Hydejack's cover page on a variety of screens.
-
-
 **Hydejack** is your presence on the web. It gives you a *blog* that is suitable for both prose and technical documentation, a *portfolio* to showcase your projects, and a beautiful *resume* template that looks amazing on the web and in print.
 
 > Your presence on the web — A [blog], a [portfolio], and a [resume].
@@ -75,10 +71,6 @@ document.getElementsByTagName("hy-push-state")[0].addEventListener("hy-push-stat
 
 ## Beautiful Math
 They say math is beautiful — and with **Hydejack**'s [math support][latex] it's also guaranteed to *look* beautiful.
-
-![Math Screenshot](assets/img/blog/example-content-iii.jpg)
-Hydejack uses KaTeX to efficiently render math.
-
 
 
 ## Build an Audience
