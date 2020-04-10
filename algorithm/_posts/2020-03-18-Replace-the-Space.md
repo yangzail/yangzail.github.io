@@ -1,0 +1,66 @@
+---
+layout: post
+title: Sword to Offer-05 替换空格 ❤
+---
+
+* 请实现一个函数，将一个字符串中的每个空格替换成“%20”。  
+
+* 例如，当字符串为We Are Happy，则经过替换之后的字符串为We%20Are%20Happy。
+
+## 解题思路：
+
+1、注意到替换后字符串长度更长，需要扩展字符串长度；  
+2、遍历一遍string，出现一个空格，字符串长度+2；  
+3、用两个指针j，k分别指向扩展前后的string末尾，从后往前遍历string；   
+4、j非空格，复制j到k，j和k一起左移一次；j为空格，k依次添加02%左移三次，j左移一次。
+
+## 主流程图：
+
+<center>
+    <img alt="An image" src="/assets/img/blog/sword-offer-05.png">
+</center>
+
+
+## AC代码：
+
+```java
+// Replace the space in a string with %20
+
+public String replaceSpace(StringBuffer str) {
+        //str length before
+        int len_before = str.length() - 1;  
+        // find a ' ', string append two spaces
+        for (int i=len_before; i>=0; i--) {
+            if (str.charAt(i) == ' ') {
+                str.append("  ");
+            }
+        }
+        
+        // string has a new length longer than before
+        int len_after = str.length() - 1;
+
+        int j = len_before;   
+        int k = len_after;    
+        // travesal the string back to front
+        for(; k>0; k--, j--) {
+            char c = str.charAt(j);
+            // if j is not a ' ',copy it to k
+            // else k should add '0','2','%' in order
+            if (c != ' ') {
+                str.setCharAt(k, c);
+            }
+            else {
+                str.setCharAt(k, '0');
+                k--;
+                str.setCharAt(k, '2');
+                k--;
+                str.setCharAt(k, '%');
+            }
+        }
+        // return should be a String class not StringBuffer
+        return str.toString();
+    }
+```
+## 补充说明：
+
+* 这里是[牛客编码链接](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)

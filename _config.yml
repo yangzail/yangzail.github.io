@@ -330,7 +330,14 @@ replace_img:
       <span slot="loading" class="loading"><span class="icon-cog"></span></span>
     </hy-img>
 
+
+# my add
+markdown: kramdown
 kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+# end
+ 
   footnote_backlink:   '&#x21a9;&#xfe0e;'
   math_engine:         mathjax
   math_engine_opts:
@@ -346,3 +353,4 @@ compress_html:
 
 sass:
   style:               compressed
+

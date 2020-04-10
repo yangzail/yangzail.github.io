@@ -1,0 +1,218 @@
+.highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+/*中灰色1*/
+.highlight .gh {
+  color: #999999;
+}
+/*金黄色*/
+.highlight .sr {
+  color: #f6aa11;
+}
+/*中灰色2*/
+.highlight .go {
+  color: #888888;
+}
+/*深灰色1*/
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+/*浅灰色1*/
+.highlight .gu {
+  color: #aaaaaa;
+}
+/*金黄色*/
+.highlight .nb {
+  color: #f6aa11;
+}
+/*深灰色2*/
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
+  color: #75715e;
+}
+/*紫红色*/
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+/*深灰色3*/
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+/*青色*/
+.highlight .kc {
+  color: #1386bf;
+}
+.highlight .kd {
+  color: #1386bf;
+}
+.highlight .kr {
+  color: #1386bf;
+}
+.highlight .no {
+  color: #1386bf;
+}
+.highlight .kt {
+  color: #1386bf;
+}
+/*偏亮紫色*/
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+/*亚麻黄色*/
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s, .highlight .sa, .highlight .dl {
+  color: #e6db74;
+}
+/*浅绿色*/
+.highlight .na {
+  color: #339933;
+}
+.highlight .nc {
+  color: #339933;
+}
+.highlight .nd {
+  color: #339933;
+}
+.highlight .ne {
+  color: #339933;
+}
+.highlight .nf, .highlight .fm {
+  color: #339933;
+}
+/*纯白色*/
+.highlight .vc {
+  color: #000000;
+ 
+}
+.highlight .nn {
+  color: #000000;
+  
+}
+.highlight .nl {
+  color: #000000;
+  
+}
+.highlight .ni {
+  color: #000000;
+  
+}
+.highlight .bp {
+  color: #000000;
+  
+}
+.highlight .vg {
+  color: #000000;
+ 
+}
+.highlight .vi {
+  color: #000000;
+ 
+}
+.highlight .nv, .highlight .vm {
+  color: #000000;
+ 
+}
+.highlight .w {
+  color: #000000;
+
+}
+.highlight {
+  color: #000000;
+
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #000000;
+
+}
+/*玫红色*/
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+
+/*接近白色背景*/
+pre[class='highlight'] {background-color:#f8f8f8;} 
+
+/*微调了蓝色和绿色*/
