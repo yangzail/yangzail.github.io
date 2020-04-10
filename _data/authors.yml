@@ -7,7 +7,8 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    今日も元気満々な一日だね！頑張れよ! (｡>ㅿ<｡)/
+    今日も元気満々な一日だね！
+    頑張れよ！ (｡>ㅿ<｡)/
 
 #    [Download Free][kit] is a github url
 #    -- or --

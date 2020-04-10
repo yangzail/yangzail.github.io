@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sword to Offer-05 替换空格 ❤
+title: Sword to Offer-05 替换空格 ✬
 ---
 
 * 请实现一个函数，将一个字符串中的每个空格替换成“%20”。  
@@ -9,7 +9,7 @@ title: Sword to Offer-05 替换空格 ❤
 
 ## 解题思路：
 
-1、注意到替换后字符串长度更长，需要扩展字符串长度；  
+1、注意到替换后字符串长度更长，需要扩展字符串长度，如果从前往后处理，会覆盖原信息；  
 2、遍历一遍string，出现一个空格，字符串长度+2；  
 3、用两个指针j，k分别指向扩展前后的string末尾，从后往前遍历string；   
 4、j非空格，复制j到k，j和k一起左移一次；j为空格，k依次添加02%左移三次，j左移一次。
@@ -63,4 +63,4 @@ public String replaceSpace(StringBuffer str) {
 ```
 ## 补充说明：
 
-* 这里是[牛客编码链接](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+* 这里是[牛客编码链接](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking)
