@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sword to Offer-05 替换空格 ✿
+title: Sword to Offer-05 替换空格 ❀
 ---
 
 * 请实现一个函数，将一个字符串中的每个空格替换成“%20”。  
