@@ -17,7 +17,7 @@ title: Sword to Offer-03 数组中重复的数字 ❀
 ## 主流程图：
 
 <center>
-    <img alt="An image" src="/assets/img/blog/sword-offer-03.png">
+    <img src="/assets/img/blog/sword-offer-03.png">
 </center>
 
 ## AC代码：

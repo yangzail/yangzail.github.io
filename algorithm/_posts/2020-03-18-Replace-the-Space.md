@@ -17,7 +17,7 @@ title: Sword to Offer-05 替换空格 ❀
 ## 主流程图：
 
 <center>
-    <img alt="An image" src="/assets/img/blog/sword-offer-05.png">
+    <img src="/assets/img/blog/sword-offer-05.png">
 </center>
 
 

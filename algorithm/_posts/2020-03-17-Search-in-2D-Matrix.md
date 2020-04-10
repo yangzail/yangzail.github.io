@@ -27,7 +27,7 @@ title: Sword to Offer-04 二维数组中的查找 ❀
 ## 主流程图：
 
 <center>
-    <img alt="An image" src="/assets/img/blog/sword-offer-04.png">
+    <img src="/assets/img/blog/sword-offer-04.png">
 </center>
 
 
