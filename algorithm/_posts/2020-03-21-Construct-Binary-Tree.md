@@ -3,8 +3,9 @@ layout: post
 title: Sword to Offer-07 重建二叉树 ❀❀
 ---
 
-* 输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。
-* 例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回。
+* 题目描述：输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。  
+
+* 例如：输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回。
 
 ## 解题思路：
 
@@ -14,7 +15,7 @@ title: Sword to Offer-07 重建二叉树 ❀❀
 4、对已知前序和中序遍历的Left和Right子树，又可以重复上述步骤递归求解；  
 5、递归退出条件为子树长度为0。  
 
-## 主流程图：
+## 问题图解：
 
 <center>
     <img src="/assets/img/blog/sword-offer-07.png">
@@ -56,4 +57,5 @@ public TreeNode reConstructBinaryTree(int[] pre,int[] in) {
 ```
 ## 补充说明：
 
+* 注意：难点在两个子树的划分，起点终点要算准确。
 * 这里是[牛客编码链接](https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?tpId=13&tqId=11157&tPage=1&rp=4&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking)

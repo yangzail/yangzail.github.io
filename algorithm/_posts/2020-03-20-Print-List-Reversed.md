@@ -3,7 +3,7 @@ layout: post
 title: Sword to Offer-06 从尾到头打印链表 ❀
 ---
 
-* 输入一个链表，按链表从尾到头的顺序返回一个ArrayList。  
+* 题目描述：输入一个链表，按链表从尾到头的顺序返回一个ArrayList。  
 
 
 ## 解题思路：
@@ -14,7 +14,7 @@ title: Sword to Offer-06 从尾到头打印链表 ❀
 
 ## 解法一：头插法
 
-### 主流程图：
+### 问题图解：
 
 <center>
     <img alt="An image" src="/assets/img/blog/sword-offer-06_1.png">
@@ -51,7 +51,7 @@ public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
 
 ## 解法二：使用栈
 
-### 主流程图：
+### 问题图解：
 
 <center>
     <img src="/assets/img/blog/sword-offer-06_2.png">
