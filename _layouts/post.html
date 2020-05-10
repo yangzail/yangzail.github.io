@@ -20,6 +20,22 @@ layout: base
 {% include components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image %}
 
 <hr class="dingbat related" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<div id="git_thread"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+    clientID: '47519ab6cbbb91042850',
+    clientSecret: '340eea05c1c01ca24ba129fefcf707389fb3f779',
+    repo: 'yangzail.github.io',
+    owner: 'yangzail',
+    admin: 'yangzail',
+    id: location.pathname,     
+    distractionFreeMode: 'false'  
+  })
+  gitalk.render('git_thread')
+</script>
 
 {% assign addons = page.addons | default:site.hydejack.post_addons %}
 {% unless addons %}{% assign addons = "about,newsletter,related,random" | split:"," %}{% endunless %}

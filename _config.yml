@@ -354,3 +354,10 @@ compress_html:
 sass:
   style:               compressed
 
+gitalk: true
+gitalk_clientid: '47519ab6cbbb91042850'
+gitalk_secret: '340eea05c1c01ca24ba129fefcf707389fb3f779'
+gitalk_repo: 'yangzail.github.io'
+gitalk_owner: 'yangzail'
+gitalk_admin: 'yangzail'
+gitalk_dfm: false
