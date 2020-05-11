@@ -366,6 +366,5 @@ gitalk:
 enable: true
 owner: yangzail
 repo: yangzail.github.io
-clientID: 47519ab6cbbb91042850
-clientSecret: 340eea05c1c01ca24ba129fefcf707389fb3f779
-admin: yangzail
+clientID: 875e2c4eba1364146826
+clientSecret: b7db2daa63e18d2fb387295cea6c0479660533ba
