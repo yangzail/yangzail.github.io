@@ -23,11 +23,11 @@ layout: base
 
 <!-- Gitalk 评论 start -->
   <!-- Link Gitalk 的支持文件 -->
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
   <div id="gitalk-container"></div>
   <script type="text/javascript">
-      var gitalk = new Gitalk({
+    var gitalk = new Gitalk({
       // gitalk的主要参数
       clientID: `875e2c4eba1364146826`,
       clientSecret: `b7db2daa63e18d2fb387295cea6c0479660533ba`,
@@ -36,8 +36,9 @@ layout: base
       owner: 'yangzail',
       admin: ['yangzail'],
       id: decodeURI(location.pathname), // Ensure uniqueness and length less than 50
+      distractionFreeMode: true  // Facebook-like distraction free mode
       });
-      gitalk.render('gitalk-container');
+    gitalk.render('gitalk-container');
   </script>
   <!-- Gitalk end -->
 
