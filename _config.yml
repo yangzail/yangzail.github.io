@@ -346,12 +346,13 @@ kramdown:
 
 compress_html:
   comments:            ["<!-- ", " -->"]
-    gitalk: true
-    gitalk_clientID: '47519ab6cbbb91042850'
-    gitalk_clientSecret: '340eea05c1c01ca24ba129fefcf707389fb3f779'
-    gitalk_repo: 'yangzail.github.io'
-    gitalk_owner: 'yangzail'
-    gitalk_admin: ['yangzail']
+  gitalk: true
+  gitalk_clientID: '47519ab6cbbb91042850'
+  gitalk_Secret: '340eea05c1c01ca24ba129fefcf707389fb3f779'
+  gitalk_repo: 'yangzail.github.io'
+  gitalk_owner: 'yangzail'
+  gitalk_admin: ['yangzail']
+  distractionFreeMode: true
     
   clippings:           all
   endings:             all

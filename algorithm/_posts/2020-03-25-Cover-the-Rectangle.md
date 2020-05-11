@@ -8,7 +8,7 @@ title: Sword to Offer-10.2 矩形覆盖 ❀
 * 比如n=3时，2*3的矩形块有3种覆盖方法：  
   
 <center>
-    <img src="/assets/img/blog/sword-offer-10.2_Example.png">
+    <img src="/assets/img/blog/sword-offer-10.2_example.png">
 </center>
 
 ## 解题思路：
