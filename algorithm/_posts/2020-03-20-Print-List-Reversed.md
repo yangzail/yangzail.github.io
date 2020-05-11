@@ -3,7 +3,7 @@ layout: post
 title: Sword to Offer-06 从尾到头打印链表 ❀
 ---
 
-* 题目描述：输入一个链表，按链表从尾到头的顺序返回一个ArrayList。  
+* 题目描述：输入一个链表，按链表从尾到头的顺序返回一个`ArrayList`。  
 
 
 ## 解题思路：
