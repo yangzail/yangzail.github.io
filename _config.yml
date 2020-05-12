@@ -376,4 +376,4 @@ defaults:
   - scope:
       type: posts
     values:
-      comments: true
+      comments: false
