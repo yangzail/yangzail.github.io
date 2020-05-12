@@ -371,9 +371,3 @@ sass:
   #githubID: yangzail
   #adminUser: yangzail
   #distractionFreeMode: true
-
-defaults:
-  - scope:
-      type: posts
-    values:
-      comments: false
