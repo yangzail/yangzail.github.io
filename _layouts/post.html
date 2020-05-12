@@ -37,7 +37,7 @@ gitment.render('gitmentContainer');
 </script>-->
 
 
-  <!-- Link Gitalk 的支持文件 -->
+<!-- Gitalk -->
   
 <div id="gitalk-container"></div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
@@ -56,7 +56,7 @@ gitment.render('gitmentContainer');
     });
   gitalk.render('gitalk-container');
 </script>>
-  <!-- Gitalk end -->
+<!-- Gitalk end -->
 
 {% assign addons = page.addons | default:site.hydejack.post_addons %}
 {% unless addons %}{% assign addons = "about,newsletter,related,random" | split:"," %}{% endunless %}
