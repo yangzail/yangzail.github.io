@@ -362,15 +362,15 @@ compress_html:
 sass:
   style:               compressed
 
-gitalk:
-  enable: true
-  owner: yangzail
-  repo: yangzail.github.io
-  clientID: 875e2c4eba1364146826
-  clientSecret: b7db2daa63e18d2fb387295cea6c0479660533ba
-  githubID: yangzail
-  adminUser: yangzail
-  distractionFreeMode: true
+#gitalk:
+  #enable: true
+  #owner: yangzail
+  #repo: yangzail.github.io
+  #clientID: 875e2c4eba1364146826
+  #clientSecret: b7db2daa63e18d2fb387295cea6c0479660533ba
+  #githubID: yangzail
+  #adminUser: yangzail
+  #distractionFreeMode: true
 
 defaults:
   - scope:
