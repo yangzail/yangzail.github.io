@@ -371,11 +371,3 @@ sass:
   #githubID: yangzail
   #adminUser: yangzail
   #distractionFreeMode: true
-
-gitalk: <yangzail>
-
-defaults:
-  - scope:
-      type: posts
-    values:
-      comments: false
