@@ -3,12 +3,11 @@
 # Change `author1` to your shortname.
 author1:
   name:              yangzai li
-  email:             742053486@qq.com
+  # email:             742053486@qq.com
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    今日も元気満々な一日だね！  
-    頑張れよ！ (｡>ㅿ<｡)/
+    今日も元気満々な一日だね！  頑張れよ！ (｡>ㅿ<｡)/
 
 #    [Download Free][kit] is a github url
 #    -- or --
@@ -28,10 +27,10 @@ author1:
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
-  social:
+  # social:
     # twitter:         <username>
-    github:            <username>
-    email:             742053486@qq.com
+    # github:            <yangzail>
+    # email:             742053486@qq.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
