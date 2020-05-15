@@ -46,8 +46,8 @@ menu:
     url:               /catlog/
   - title:             Algorithm
     url:               /algorithm/
-  - title:             Machine Learning
-    url:               /machine-learning/
+  - title:             Java Basic
+    url:               /java/
   - title:             SDN Researching
     url:               /sdn/
 
