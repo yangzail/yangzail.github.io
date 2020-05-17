@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sword to Offer-12 矩阵中的路径 ❀
+title: Sword to Offer-12 矩阵中的路径 ❀❀❀
 ---
 
 * 题目描述：请设计一个函数，用来判断在一个矩阵中是否存在一条包含某字符串所有字符的路径。路径可以从矩阵中的任意一个格子开始，每一步可以在矩阵中向左，向右，向上，向下移动一个格子。如果一条路径经过了矩阵中的某一个格子，则该路径不能再进入该格子。 
@@ -13,55 +13,85 @@ title: Sword to Offer-12 矩阵中的路径 ❀
 ## 解题思路：
 
 回溯法  
-1、
+1、暴力搜索整个矩阵，以矩阵中每个点为起点开始回溯流程；  
+2、退出判真条件为找到点的个数等于`str`长度；  
+3、退出判假条件为：  
+（1）该点超出了矩阵范围；  
+（2）该点值不等于`str`下一个值；    
+（3）该点已经在本次搜寻流程中走过；  
+4、上面两步没有返回，说明该点满足搜寻条件，接下来：  
+（1）将该点的状态标记为已走过；  
+（2）递归搜寻，以其四个邻接的点为起点开始判断是否与`str`后面子串匹配，匹配则返回`true`；  
+>注：邻接点会判断自身是否满足条件，再将问题抛给它满足条件的邻接点。  
+>(a) 若有这样的路径，最后搜寻问题会被抛给最后一个匹配的点，在对比长度时返回，而调用它的
+>上一个点，上上个点...都会返回`true`，总问题返回`true`；  
+>(b) 若不存在这样的路径，最终会走到最后两步，将第一个点状态置为`false`，并返回`false`。  
+
+5、上面都未返回，说明虽然该点满足条件，以它为起点并不能找到路径，回溯该点，将走过状态置为`false`，并返回`false`，开始以矩阵下一个点为起点寻找。  
 
 
-## 问题图解：
+## 问题图解：  
+  
 
 <center>
-    <img src="/assets/img/blog/sword-offer-11.png">
+    <img src="/assets/img/blog/sword-offer-12.png">
 </center>
 
 ## AC代码：
 
 ```java
-// Finding Minimum Number in Rotate Array
-
-import java.util.ArrayList;
+// Finding Path in Matrix
 
 public class Solution {
-    public int minNumberInRotateArray(int[] array) {
-        if (array.length == 0){
-            return 0;
-        }
-        int low = 0, high = array.length-1;
-        while (low < high) {
-            int mid = (low + high) / 2;
-            if (array[low]==array[mid] && array[mid]==array[high]) {
-                return minNum(array, low, high);
-            }
-            // 注意等于的情况不要乱删数字,不要跳过这个mid
-            if (array[mid] <= array[high]) {
-                high = mid;
-            }
-            else {
-                low = mid + 1;
+    public boolean hasPath(char[] matrix, int rows, int cols, char[] str) {
+        // turn matrix into a two-dimensional array
+        char[][] searchMatrix = new char[rows][cols];
+        for (int i=0; i<rows; i++) {
+            for (int j=0; j<cols; j++) {
+                searchMatrix[i][j] = matrix[i*cols+j];
             }
         }
-        return array[low];
+        // create a mark matrix to sign the char has been selected or not
+        boolean[][] status = new boolean[rows][cols];
+        // searching,if traverse the whole matrix but cannot find,return false
+        int position = 0; 
+        //position means the element that has been selected
+        for (int m=0; m<rows; m++) {
+            for (int n=0; n<cols; n++) {
+                if (backTracking(searchMatrix, status, rows, cols, m, n, str, position)) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
     
-    private int minNum(int[] arr, int l, int h) {
-        for (int i=l; i<h; i++) {
-            if (arr[i] > arr[i+1]) {
-                return arr[i+1];
-            }
+    private boolean backTracking(char[][] matrix, boolean[][] status, int rows, int cols, 
+                                             int i, int j, char[] str, int position) {
+        // 找到的元素个数等于字符串长度时判断路径成功
+        if (position == str.length)  { 
+            return true;
         }
-        return arr[l];
+        // 不在矩阵范围内或已走过或不匹配
+        if (i<0 || i>=rows || j<0 || j>=cols || status[i][j] || matrix[i][j]!=str[position]) {
+            return false;
+        }
+        // 走到此处，说明该点匹配但是不是str最后一个点
+        status[i][j] = true;
+        // 寻找该点邻接的点是否能满足子路径
+        if (backTracking(matrix, status, rows, cols, i-1, j, str, position+1)||
+            backTracking(matrix, status, rows, cols, i+1, j, str, position+1)||
+            backTracking(matrix, status, rows, cols, i, j-1, str, position+1)||
+            backTracking(matrix, status, rows, cols, i, j+1, str, position+1)) {
+            return true;
+        }
+        // 如果邻接的点无法找到子路径，回退该点
+        status[i][j] = false;
+        return false;
     }
 }
 ```
 
 ## 补充说明：
 
-* 这里是[牛客编码链接](https://www.nowcoder.com/practice/9f3231a991af4f55b95579b44b7a01ba?tpId=13&tqId=11159&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+* 这里是[牛客编码链接](https://www.nowcoder.com/practice/c61c6999eecb4b8f88a98f66b273a3cc?tpId=13&tqId=11218&tPage=4&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking)
