@@ -18,16 +18,9 @@ title: Sword to Offer-66 构建乘积数组  ❀❀
 3、特殊值，`B`第一个值为`rightMulti[1]`，最后一个值为`left[n-2]`。  
 
 
-## 问题图解：
+## 解法一、双重循环  
 
-<center>
-    <img src="/assets/img/blog/sword-offer-66.png">
-</center>
-
-
-## AC代码：
-
-方法1、暴力双重循环:  
+### AC代码：
 
 ```java
 // Multiply All Numbers in Array Except Position i
@@ -53,7 +46,15 @@ public class Solution {
 }
 ```
 
-方法2、动态规划，空间换时间：
+## 解法二、动态规划
+
+### 问题图解：
+
+<center>
+    <img src="/assets/img/blog/sword-offer-66.png">
+</center>
+
+### AC代码：
 
 ```java
 import java.util.ArrayList;

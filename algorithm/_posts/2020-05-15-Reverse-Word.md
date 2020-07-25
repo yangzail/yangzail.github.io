@@ -14,16 +14,9 @@ title: Sword to Offer-58.1 翻转单词顺序列 ❀
 思路2、先翻转每个句子，再翻转每个单词。
 
 
-## 问题图解：
+## 解法一、倒序输出字符串数组
 
-<center>
-    <img src="/assets/img/blog/sword-offer-58.1.png">
-</center>
-
-
-## AC代码：
-
-1、`split`划分字符串倒序输出方法：
+### AC代码：
 
 ```java
 // Reverse the Word
@@ -51,7 +44,15 @@ public class Solution {
 }
 ```
 
-2、先翻转整个`String`，再翻转每个单词方法：
+## 解法二、翻转字符串
+
+### 问题图解：
+
+<center>
+    <img src="/assets/img/blog/sword-offer-58.1.png">
+</center>
+
+### AC代码：
 
 ```java
 // Reverse the Word
@@ -85,8 +86,6 @@ public class Solution {
     }
 }
 ```
-
-
 
 ## 补充说明： 
 

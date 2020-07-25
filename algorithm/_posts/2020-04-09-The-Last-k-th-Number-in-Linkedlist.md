@@ -54,4 +54,4 @@ public class Solution {
 ## 补充说明：
 * 注意：若`p2`到链表最后一个结点就停下，往前数`k`个结点`p1`指向倒数第`k+1`个结点，所以需要等`p2`指向`null`时停止循环。  
 
-* 这里是[牛客编码链接](https://www.nowcoder.com/practice/beb5aa231adc45b2a5dcc5b62c93f593?tpId=13&&tqId=11166&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+* 这里是[牛客编码链接](https://www.nowcoder.com/practice/529d3ae5a407492994ad2a246518148a?tpId=13&&tqId=11167&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)

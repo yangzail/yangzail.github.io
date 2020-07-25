@@ -9,8 +9,8 @@ title: Sword to Offer-06 从尾到头打印链表 ❀
 ## 解题思路：
 
 * 倒序输出链表问题  
-解法1、头插法：创建头结点，遍历链表元素，依次插入为头结点的下一个结点。  
-解法2、使用栈：遍历链表元素，依次入栈，遍历完成后依次出栈。
+思路1、头插法，创建头结点，遍历链表元素，依次插入为头结点的下一个结点。  
+思路2、使用栈，遍历链表元素，依次入栈，遍历完成后依次出栈。
 
 ## 解法一：头插法
 
@@ -77,6 +77,7 @@ public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         return ret;
     }
 ```
+
 ## 补充说明：
 
 * 使用栈时记得`import java.util.Stack`  

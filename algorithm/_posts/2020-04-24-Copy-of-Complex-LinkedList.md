@@ -82,4 +82,4 @@ public class Solution {
 
 * 注意考虑原链表的`random`域就为空的情况。  
 
-* 这里是[牛客编码链接](https://www.nowcoder.com/practice/b736e784e3e34731af99065031301bca?tpId=13&&tqId=11177&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+* 这里是[牛客编码链接](https://www.nowcoder.com/practice/f836b2c43afc4b35ad6adc41ec941dba?tpId=13&&tqId=11178&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)

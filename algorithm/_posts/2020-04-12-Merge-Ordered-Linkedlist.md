@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sword to Offer-25 合并两个排序的联表 ❀
+title: Sword to Offer-25 合并两个排序的链表 ❀
 ---
 
 * 题目描述：  

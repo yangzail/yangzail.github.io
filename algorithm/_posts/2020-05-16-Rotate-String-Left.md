@@ -15,16 +15,9 @@ title: Sword to Offer-58.2 左旋转字符串 ❀
 思路2：先分别翻转前后两部分，再翻转整个字符串。  
 
 
-## 问题图解：
+## 解法一、辅助数组
 
-<center>
-    <img src="/assets/img/blog/sword-offer-58.2.png">
-</center>
-
-
-## AC代码：
-
-1、辅助数组储存前`n`个值的方法：  
+### AC代码：  
 
 ```java
 // Rotate String Left
@@ -53,7 +46,15 @@ public class Solution {
 
 ```
 
-2、翻转字符串的方法
+## 解法二、翻转字符串
+
+### 问题图解：
+
+<center>
+    <img src="/assets/img/blog/sword-offer-58.2.png">
+</center>
+
+### AC代码：  
 
 ```java
 // Rotate String Left

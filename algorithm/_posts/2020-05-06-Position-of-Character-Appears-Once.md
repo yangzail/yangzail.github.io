@@ -6,21 +6,16 @@ title: Sword to Offer-50 第一个只出现一次的字符位置 ❀
 * 题目描述：  
 在一个字符串(`0<=字符串长度<=10000`，全部由字母组成) 中找到第一个只出现一次的字符，并返回它的位置，如果没有则返回 `-1`（从`0`开始计数，需要区分大小写）。
 
-## 解题思路：
+## 解题思路：  
 
-第一个丑数设为`1`，直接添加到丑数`ArrayList`中，接下来以`2`,`3`,`5`为因子乘以确定的偶数因子`1`，得到三个值中最小的一个添加到丑数`ArrayList`中，且被选中的那个因子再下一次比较中，应该乘以数组下一个数，其他因子的乘法不变。  
+思路1：可用与[41.2](http://127.0.0.1:4000/algorithm/2020-05-01-First-No-Repeated-Character-in-Stream/)一样的方法，利用`HashMap`求解。  
 
-
-## 问题图解：
-
-<center>
-    <img src="/assets/img/blog/sword-offer-50.png">
-</center>
+思路2：直接遍历的方法，使用一个数组来记录每个元素出现的次数。数组下标为字符，会自动转换为该字符的`ASCII`码，数组值为该字符出现次数。第一次遍历记录，第二次遍历找到第一个数组值为`1`的位置，输出即可。 两次遍历的实际下标顺序都是字符串中每个字符依次的`ASCII`码。  
 
 
-## AC代码：
+## 解法一、使用HashMap
 
-1、可用与[41.2](http://127.0.0.1:4000/algorithm/2020-05-01-First-No-Repeated-Character-in-Stream/)一样的方法，利用`HashMap`求解。  
+### AC代码：
 
 ```java
 // Get the Position of Character Appears Once in String
@@ -54,8 +49,16 @@ public class Solution {
 }
 ```
 
-2、还有直接遍历的方法，使用一个数组来记录每个元素出现的次数。数组下标为字符，会自动转换为该字符的`ASCII`码，数组值为该字符出现次数。第一次遍历记录，第二次遍历找到第一个数组值为`1`的位置，输出即可。 两次遍历的实际下标顺序都是字符串中每个字符依次的`ASCII`码。  
+## 解法二、使用数组
   
+### 问题图解：
+
+<center>
+    <img src="/assets/img/blog/sword-offer-50.png">
+</center>
+
+### AC代码：
+
 ```java
 public class Solution {
     public int FirstNotRepeatingChar(String str) {
