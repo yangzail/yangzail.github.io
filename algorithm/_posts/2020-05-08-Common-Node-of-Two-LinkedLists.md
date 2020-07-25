@@ -14,7 +14,7 @@ title: Sword to Offer-52 两个链表的第一个公共结点 ❀
 `pb`到达终点时，`pa`已经在链表2走了`b-a`，之后`pb`从链表`1`起点开始走，
 当`pb`走了`a`到达交点时，`pa`走了`b-a+a=b`也到达了交点。
 
-同类型的题为[23](http://127.0.0.1:4000/algorithm/2020-04-10-Enterance-of-Circle-in-Linkedlist/)。
+同类型的题为[23](https://yangzail.github.io/algorithm/2020-04-10-Enterance-of-Circle-in-Linkedlist/)。
 
 
 ## 问题图解：

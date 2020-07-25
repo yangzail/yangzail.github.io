@@ -10,7 +10,7 @@ title: Sword to Offer-32.3 按之字形顺序打印二叉树 ❀❀
 
 为层次遍历按行输出的程序添加隔行翻转,使用一个参数表示奇偶行，是偶数行的时候翻转`list`即可；  
 
-层次遍历按行输出参见[32.2](http://127.0.0.1:4000/algorithm/2020-04-20-Print-Binary-Tree-In-Lines/)。
+层次遍历按行输出参见[32.2](https://yangzail.github.io/algorithm/2020-04-20-Print-Binary-Tree-In-Lines/)。
 
 
 ## AC代码：

@@ -8,7 +8,7 @@ title: Sword to Offer-50 第一个只出现一次的字符位置 ❀
 
 ## 解题思路：  
 
-思路1：可用与[41.2](http://127.0.0.1:4000/algorithm/2020-05-01-First-No-Repeated-Character-in-Stream/)一样的方法，利用`HashMap`求解。  
+思路1：可用与[41.2](https://yangzail.github.io/algorithm/2020-05-01-First-No-Repeated-Character-in-Stream/)一样的方法，利用`HashMap`求解。  
 
 思路2：直接遍历的方法，使用一个数组来记录每个元素出现的次数。数组下标为字符，会自动转换为该字符的`ASCII`码，数组值为该字符出现次数。第一次遍历记录，第二次遍历找到第一个数组值为`1`的位置，输出即可。 两次遍历的实际下标顺序都是字符串中每个字符依次的`ASCII`码。  
 

@@ -8,7 +8,7 @@ title: Sword to Offer-56 数组中只出现一次的数字 ❀❀
 
 ## 解题思路：
 
-可用`HashMap`进行求解，参考[41.2]（）和[50]（）。  
+可用`HashMap`进行求解，参考[41.2]（https://yangzail.github.io/algorithm/2020-05-01-First-No-Repeated-Character-in-Stream/）和[50]（https://yangzail.github.io/algorithm/2020-05-06-Position-of-Character-Appears-Once/）。  
 
 此处介绍另一种方法，用异或特性求解：  
 1、异或特性，`num^0 = num`; `num^num = 0`  
