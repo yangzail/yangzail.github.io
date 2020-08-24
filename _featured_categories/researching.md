@@ -5,5 +5,5 @@ slug: researching
 menu: true
 order: 3
 description: >
-  Blogs about SDN！(●°u°●)​ 」
+  Blogs ordered by time reversed！(●°u°●)​ 」
 ---
