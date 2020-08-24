@@ -46,10 +46,8 @@ menu:
     url:               /catlog/
   - title:             Algorithm
     url:               /algorithm/
-  - title:             Java Basic
-    url:               /java/
-  - title:             SDN Researching
-    url:               /sdn/
+  - title:             Researching
+    url:               /researching/
 
 
 # Add links to the footer.
