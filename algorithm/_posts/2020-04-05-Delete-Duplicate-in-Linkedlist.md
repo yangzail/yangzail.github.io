@@ -30,7 +30,7 @@ title: Sword to Offer-18.2 删除链表中重复的结点 ❀❀
 public class Solution {
     public ListNode deleteDuplication(ListNode pHead)
     {
-        if (pHead == null || pHead.next == null) {
+        if (pHead==null || pHead.next==null) {
             return pHead;
         }
         // add a new head node before pHead to return
@@ -44,8 +44,8 @@ public class Solution {
         while (pNode!=null) {
             // if pNode has next and its val equals pNode.next's val
             // drop all of them, move pNode util the end or a new number
-            if (pNode.next!=null && pNode.val == pNode.next.val) {
-                while (pNode.next!=null && pNode.val == pNode.next.val) {
+            if (pNode.next!=null && pNode.val==pNode.next.val) {
+                while (pNode.next!=null && pNode.val==pNode.next.val) {
                     pNode = pNode.next;
                 }
                 // pNode is the last number ths time we drop

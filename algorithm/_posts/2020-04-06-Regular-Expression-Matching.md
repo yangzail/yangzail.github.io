@@ -54,7 +54,7 @@ public class Solution {
         }
         //匹配未结束且pattern下一个字符为*
         if (pIndex+1<pattern.length && pattern[pIndex+1]=='*') {
-            //当前字符出现多次对应sIndex+1情况,出现0次对应pIndex+2情况
+            //当前字符匹配下一个为*,该字符出现多次对应sIndex+1,出现0次对应pIndex+2
             if (sIndex!=str.length && (str[sIndex]==pattern[pIndex] || pattern[pIndex]=='.')) {
                 return match(str, sIndex+1, pattern, pIndex) || match(str, sIndex, pattern, pIndex+2);
             }

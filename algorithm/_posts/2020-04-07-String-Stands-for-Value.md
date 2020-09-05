@@ -27,7 +27,7 @@ title: Sword to Offer-20 表示数值的字符串 ❀❀
 ## AC代码：
 
 ```java
-// // String Stands for a Value or Not
+// String Stands for a Value or Not
 
 public class Solution {
     public boolean isNumeric(char[] str) {
