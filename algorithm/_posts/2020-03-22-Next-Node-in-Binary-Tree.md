@@ -26,7 +26,8 @@ title: Sword to Offer-08 二叉树的下一个结点 ❀❀
 ```java
 // Find the Next Treenode of a Binary Tree's Mid-order Traversal
 
-public TreeLinkNode GetNext(TreeLinkNode pNode){
+public class Solution {
+    public TreeLinkNode GetNext(TreeLinkNode pNode){
         // if node has right child,the next node is the right child's
         // leftest child or itself(when no left child)
         if (pNode.right != null) {
@@ -50,6 +51,7 @@ public TreeLinkNode GetNext(TreeLinkNode pNode){
         // the node is the rightest node of a tree
         return null;
     }
+}
 ```
 ## 补充说明：
 

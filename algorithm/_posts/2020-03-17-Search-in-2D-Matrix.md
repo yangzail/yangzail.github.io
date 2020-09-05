@@ -36,8 +36,9 @@ title: Sword to Offer-04 二维数组中的查找 ❀
 ```java
 // Search a target in a partially ordered 2D matrix
 
-public boolean Find(int target, int [][] array) {
-        // get the number of rows and columns of array
+public class Solution {
+    public boolean Find(int target, int [][] array) {
+    // get the number of rows and columns of array
         int rows = array.length;
         int columns = array[0].length;
         // if array is null return false
@@ -66,6 +67,7 @@ public boolean Find(int target, int [][] array) {
             return false;
         }
     }
+}
 ```
 ## 补充说明：
 

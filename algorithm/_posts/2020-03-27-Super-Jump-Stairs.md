@@ -32,7 +32,8 @@ title: Sword to Offer-10.4 变态跳台阶 ❀
 ```java
 // Jump Stairs When Once 1~n Stairs
 
-public int JumpFloorII(int target) {
+public class Solution {
+    public int JumpFloorII(int target) {
         if (target <=2) {
             return target;
         }
@@ -44,6 +45,7 @@ public int JumpFloorII(int target) {
         }
         return result;
     }
+}
 ```
 
 ## 补充说明：

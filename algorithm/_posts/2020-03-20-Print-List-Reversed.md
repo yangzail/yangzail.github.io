@@ -25,7 +25,8 @@ title: Sword to Offer-06 从尾到头打印链表 ❀
 ```java
 // Head inserting 
 
-public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
+public class Solution {
+    public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         // construct a head node
         ListNode head = new ListNode(-1);
         // node's next is head's next and head's next is this node
@@ -47,6 +48,7 @@ public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         }
         return array;
     }
+}
 ```
 
 ## 解法二：使用栈

@@ -26,7 +26,8 @@ title: Sword to Offer-05 替换空格 ❀
 ```java
 // Replace the space in a string with %20
 
-public String replaceSpace(StringBuffer str) {
+public class Solution {
+    public String replaceSpace(StringBuffer str) {
         //str length before
         int len_before = str.length() - 1;  
         // find a ' ', string append two spaces
@@ -41,7 +42,7 @@ public String replaceSpace(StringBuffer str) {
 
         int j = len_before;   
         int k = len_after;    
-        // travesal the string back to front
+        // traversal the string back to front
         for(; k>0; k--, j--) {
             char c = str.charAt(j);
             // if j is not a ' ',copy it to k
@@ -60,6 +61,7 @@ public String replaceSpace(StringBuffer str) {
         // return should be a String class not StringBuffer
         return str.toString();
     }
+}
 ```
 ## 补充说明：
 

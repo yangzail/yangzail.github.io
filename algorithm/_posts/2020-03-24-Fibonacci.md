@@ -28,7 +28,8 @@ title: Sword to Offer-10.1 斐波那契数列 ❀
 ```java
 // Fibonacci Sequence
 
-public int Fibonacci(int n) {
+public class Solution {
+    public int Fibonacci(int n) {
         if (n == 0) {
             return n;
         }
@@ -39,6 +40,8 @@ public int Fibonacci(int n) {
             fib[i] = fib[i-1] + fib[i-2];
         }
         return fib[n];
+    }
+}
 ```
 
 ## 补充说明：

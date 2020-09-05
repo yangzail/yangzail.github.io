@@ -34,7 +34,8 @@ title: Sword to Offer-10.2 矩形覆盖 ❀
 ```java
 // Cover a 2*n Rectangle with 2*1 Rectangle
 
-public int RectCover(int target) {
+public class Solution {
+    public int RectCover(int target) {
         if (target <= 1) {
             return target;
         }
@@ -46,10 +47,11 @@ public int RectCover(int target) {
         }
         return method[target];
     }
+}
 ```
 
 ## 补充说明：
 
-* 注：其实不用保存前面所有`n`个值，只需要保存前两个即可，具体可见`10.3`。
+* 注：其实不用保存前面所有`n`个值，只需要保存前两个即可，具体可见[10.3](https://yangzail.github.io/algorithm/2020-03-26-Jump-Stairs/)。
 
 * 这里是[牛客编码链接](https://www.nowcoder.com/practice/72a5a919508a4251859fb2cfb987a0e6?tpId=13&tqId=11163&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking)

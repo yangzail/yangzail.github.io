@@ -49,6 +49,6 @@ public int pop() throws Exception{
 
 ## 补充说明：
 
-* 注意：将`stack1`元素transfer到`stack2`的时间点。先进`stack2`的元素是先`push`的元素，`pop`优先级一定高于`stack1`现存的元素，故`stack2`为空之前`pop`操作是轮不到`stack1`元素出栈的，`stack2`为空时才考虑`transfer`过来。
+* 注意：将`stack1`元素`transfer`到`stack2`的时间点。先进`stack2`的元素是先`push`的元素，`pop`优先级一定高于`stack1`现存的元素，故`stack2`为空之前`pop`操作是轮不到`stack1`元素出栈的，`stack2`为空时才考虑`transfer`过来。
 
 * 这里是[牛客编码链接](https://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?tpId=13&tqId=11158&tPage=1&rp=1&ru=%2Fta%2Fcoding-interviews&qru=%2Fta%2Fcoding-interviews%2Fquestion-ranking)

@@ -25,7 +25,8 @@ title: Sword to Offer-03 数组中重复的数字 ❀
 ```java
 // Repeated numbers in array
 
-public boolean duplicate(int numbers[],int length,int [] duplication) {
+public class Solution {
+    public boolean duplicate(int numbers[],int length,int [] duplication) {
         // if it's a null array, return false
         if (length<=0 || numbers==null){
             return false;
@@ -56,7 +57,7 @@ public boolean duplicate(int numbers[],int length,int [] duplication) {
         nums[i] = nums[j];
         nums[j] = tmp;
     }
-
+}
 ```
 ## 补充说明：
 

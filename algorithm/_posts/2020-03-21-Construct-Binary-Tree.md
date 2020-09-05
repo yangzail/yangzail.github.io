@@ -27,7 +27,8 @@ title: Sword to Offer-07 重建二叉树 ❀❀
 ```java
 // Construct Binary Tree using Pre-order and Mid-order Traversal
 
-public TreeNode reConstructBinaryTree(int[] pre,int[] in) {
+public class Solution {
+    public TreeNode reConstructBinaryTree(int[] pre,int[] in) {
         // 为了不用每次重新构造pre和in数组，选择start和end指针进行切割，重载该方法
         TreeNode root = reConstructBinaryTree(pre, 0, pre.length-1, in, 0, 
                                                               in.length-1);
@@ -54,6 +55,7 @@ public TreeNode reConstructBinaryTree(int[] pre,int[] in) {
         }
         return root;
     }
+}
 ```
 ## 补充说明：
 
